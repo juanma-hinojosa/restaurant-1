@@ -1,0 +1,71 @@
+.menu-home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--crema2);
+    color: beige;
+}
+
+.menu-home > .title {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 30px 0px;
+    letter-spacing: 3px;
+}
+
+.menu-home > .menu-content {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-home > .menu-content > .menu-wrapper {
+    width: 90%;
+}
+
+.menu-home > .menu-content > .menu-wrapper > .menu-title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+}
+
+.menu-home > .menu-content > .menu-wrapper > .menu-subtitle {
+    padding: 10px 0px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1.4rem;
+    border-top: 2px solid var(--bordo);
+    border-bottom: 2px solid var(--bordo);
+    font-weight: 900;
+}
+
+.menu-home > .menu-content > .menu-wrapper > .menu-description {
+    font-size: .9rem;
+    margin: 10px 0px 50px;
+}
+
+.menu-home > .menu-content > .menu-wrapper > .menu-price {
+    margin-bottom: 170px;
+}
+
+.menu-home > .menu-content > .menu-wrapper > .menu-price > .food-price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}   
+
+.menu-home > .menu-content > .menu-wrapper > .menu-price > .food-price > .food {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.menu-home > .menu-content > .menu-wrapper > .menu-price > .sub-description {
+    margin-bottom: 50px;
+    font-size: .9rem;
+    color: white;
+}

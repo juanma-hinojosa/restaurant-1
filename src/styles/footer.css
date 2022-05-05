@@ -1,0 +1,25 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    background-color: var(--bordo);
+    color: var(--crema);
+}
+
+.footer > .footer-wrapper {
+    font-size: .6rem;
+    font-style: italic;
+}
+
+.footer > .footer-wrapper a {
+    color: var(--crema);
+    border-bottom: 1px solid rgb(179, 26, 26);
+}
+
+.footer > .footer-wrapper a:hover {
+    color: rgb(211, 35, 35);
+    border-bottom: 2px solid rgb(211, 35, 35);
+}

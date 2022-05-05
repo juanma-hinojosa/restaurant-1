@@ -1,0 +1,126 @@
+.reservation {
+    width: 100%;
+    height: 400px;
+    /* height: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:  
+        linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)),
+        url(/src/img/bg-3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.reservation > .reservation-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: beige;
+}
+
+.reservation > .reservation-wrapper > .reservation-title {
+    width: 100%;
+    color: beige;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 2rem;   
+    margin-bottom: 40px;
+}
+
+
+.reservation > .reservation-wrapper > .reservation-subtitle {
+    font-size: .9rem;
+}
+
+.steak {
+    width: 100%;
+    height: 400px;
+    /* height: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:  
+        linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)),
+        url(/src/img/bg-4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.steak > .steak-wrapper {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--crema);
+}
+
+.steak > .steak-wrapper > .steak-title {
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 2rem;   
+    margin-bottom: 40px;
+}
+
+
+.steak > .steak-wrapper > .steak-subtitle {
+    font-size: 1.1rem;
+}
+
+.drink {
+    width: 100%;
+    height: 400px;
+    /* height: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:  
+        linear-gradient(rgba(0,0,0,.80), rgba(0,0,0,.80)),
+        url(/src/img/bg-5.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.drink > .drink-wrapper {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: var(--crema2);
+}
+
+.drink > .drink-wrapper > .drink-title {
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 2rem;   
+    margin-bottom: 40px;
+}
+
+
+.drink > .drink-wrapper > .drink-subtitle {
+    font-size: 1.1rem;
+}

@@ -1,0 +1,14 @@
+:root {
+    --bordo: rgb(71, 21, 22);
+    --crema: rgb(190, 182, 163);
+    --crema2: rgb(175,163,102);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    scroll-behavior: smooth;
+}

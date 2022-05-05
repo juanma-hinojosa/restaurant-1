@@ -1,0 +1,23 @@
+.location {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--bordo);
+    color: var(--crema);
+    padding: 30px 0px;
+}
+
+.location > .location-wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.location > .location-wrapper > .location-title {
+    font-size: 1rem;
+    font-weight: 900;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
